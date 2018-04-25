@@ -1,0 +1,16 @@
+{
+    "name": "jsnlib/joomla_template_chrome",
+    "type": "library",
+    "description": "讓製作模板區塊的部分，可以分離 PHP 與 HTML",
+    "keywords": ["joomla", "template", "chrome"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "twig/twig": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jsnlib\\": "src\\"
+        }
+    }
+}
